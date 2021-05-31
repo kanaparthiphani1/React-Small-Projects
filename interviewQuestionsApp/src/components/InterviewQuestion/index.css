@@ -1,0 +1,91 @@
+/* Write you CSS here */
+
+.question-inner {
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-bottom: 20px;
+}
+
+.level-cat-cont {
+  display: flex;
+  align-items: center;
+}
+
+.level-para {
+  font-size: 13px;
+
+  padding: 10px;
+  font-weight: 600;
+  border-radius: 40px;
+
+  margin: 0px;
+  margin-right: 20px;
+}
+
+.cat-para {
+  font-size: 13px;
+
+  padding: 10px;
+  font-weight: 600;
+  border-radius: 40px;
+  margin: 0px;
+  margin-right: 20px;
+}
+
+.question {
+  color: #0f172a;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.button-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  border: 1px solid #cbd2d9;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.butn-text {
+  font-size: 13px;
+  margin: 7px;
+  color: #9aa5b1;
+}
+
+.easy {
+  color: #16a34a;
+  background-color: #16a34a16;
+}
+
+.medium {
+  color: #d97706;
+  background-color: #d9770616;
+}
+
+.hard {
+  color: #dc2626;
+  background-color: #dc262616;
+}
+
+.html {
+  color: #0284c7;
+  background-color: #0284c716;
+}
+
+.css {
+  color: #9333ea;
+  background-color: #9333ea16;
+}
+
+.js {
+  color: #db2777;
+  background-color: #db277716;
+}
+
+.answer-para {
+  padding: 10px;
+  padding-bottom: 0px;
+}
