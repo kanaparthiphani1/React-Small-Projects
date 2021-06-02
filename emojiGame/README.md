@@ -16,13 +16,13 @@ In this project I have built an **Emoji Game** by using React.
   - If all the emojis are clicked exactly once
 
     - The _Game status_ along with _Best score_ and _Play Again_ button should
-      be displayed as shown in the **design file (won game)**.
+      be displayed.
     - The _Best score_ should be equal to the _Top Score_
 
   - If the clicked emoji is the same as any of the previously clicked emojis
 
     - The _Game status_ along with _Current score_ and _Play Again_ button
-      should be displayed as shown in the **design file (lose game)**.
+      should be displayed.
 
     - If the score achieved in the current game is higher than the previous
       scores then the _Top Score_ should be updated accordingly.
