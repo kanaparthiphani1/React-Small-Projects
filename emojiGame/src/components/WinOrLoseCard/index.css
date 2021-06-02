@@ -1,0 +1,91 @@
+/* Write your code here. */
+
+.winOrLose-cont {
+  width: 630px;
+  height: 450px;
+  background-color: #ffffff33;
+  display: flex;
+  border: 1px solid white;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 35px;
+}
+
+.scores-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-status {
+  font-size: 55px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.bestScore {
+  font-size: 30px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.marks {
+  font-size: 30px;
+  color: #6a59ff;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.custBtn {
+  width: 110px;
+  height: 40px;
+  background-color: #ffce27;
+  border: 0px;
+  border-radius: 17px;
+  font-weight: 900;
+}
+
+@media screen and (max-width: 767px) {
+  .winOrLose-cont {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+  }
+  .wongameimg {
+    width: 50%;
+    height: 55%;
+    align-self: center;
+    order: 0;
+  }
+  .scores-cont {
+    order: 1;
+  }
+  .game-status {
+    font-size: 25px;
+    color: white;
+    margin-bottom: 30px;
+  }
+  .marks {
+    font-size: 15px;
+    color: #6a59ff;
+    font-weight: 900;
+    margin-bottom: 20px;
+  }
+
+  .bestScore {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+  }
+
+  .custBtn {
+    width: 80px;
+    height: 30px;
+    background-color: #ffce27;
+    border: 0px;
+    border-radius: 17px;
+    font-weight: 900;
+  }
+}

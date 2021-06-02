@@ -1,0 +1,27 @@
+/* Write your code here. */
+
+.emoji-box {
+  height: 190px;
+  width: 190px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: 1px solid #ffffff;
+  background-color: #ffffff33;
+  margin: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .emoji-box {
+    margin: 5px;
+    height: 100%;
+    padding: 20px;
+    width: 30%;
+  }
+  .emoji-pic {
+    height: 60%;
+    width: 60%;
+  }
+}
