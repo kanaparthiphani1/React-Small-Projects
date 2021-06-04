@@ -1,0 +1,40 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.avatar {
+  height: 150px;
+}
+
+.top-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-head {
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.role {
+  color: #616e7c;
+  font-weight: 500;
+}
+
+.blog-list-outer {
+  width: 74%;
+  padding: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .blog-list-outer {
+    width: 94%;
+    padding: 10px;
+  }
+}

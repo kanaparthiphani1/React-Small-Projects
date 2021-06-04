@@ -1,0 +1,42 @@
+/* Write your CSS code here */
+.blog-item-out {
+  padding: 10px;
+}
+
+.blog-item-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blog-head {
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.blog-date {
+  color: #616e7c;
+  font-weight: 700;
+}
+
+.blog-para {
+  color: #616e7c;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 767px) {
+  .blog-head {
+    font-size: 22px;
+    font-weight: 800;
+  }
+  .blog-para {
+    font-size: 17px;
+    color: #616e7c;
+    font-weight: 600;
+  }
+  .blog-date {
+    font-size: 17px;
+    color: #616e7c;
+    font-weight: 700;
+  }
+}
