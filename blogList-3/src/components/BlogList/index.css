@@ -1,0 +1,10 @@
+/* Write your CSS code here */
+.blog-list-cont {
+  padding: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .blog-list-cont {
+    padding: 15px;
+  }
+}
