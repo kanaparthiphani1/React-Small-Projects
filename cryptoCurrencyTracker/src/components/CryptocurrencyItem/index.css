@@ -1,0 +1,48 @@
+/* Write your CSS code here */
+.cryptoCont {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.crytoLogo {
+  display: flex;
+  align-items: center;
+}
+
+.curLogo {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.currency-dt-cont {
+  display: flex;
+  width: 200px;
+  justify-content: space-around;
+}
+
+.fontSize {
+  font-size: 15px;
+}
+
+.crytoLogo {
+  width: 150px;
+}
+
+@media screen and (max-width: 767px) {
+  .curLogo {
+    height: 18px;
+    margin-right: 5px;
+  }
+
+  .fontSize {
+    font-size: 11px;
+    margin-right: 10px;
+  }
+
+  .currency-dt-cont {
+    display: flex;
+    width: 100px;
+    justify-content: space-around;
+  }
+}

@@ -1,0 +1,14 @@
+/* Write your CSS code here */
+.cryptoDetail-list-cont {
+  padding: 27px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .cryptoDetail-list-cont {
+    padding: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
