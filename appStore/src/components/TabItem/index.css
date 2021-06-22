@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.tabItem {
+  width: 100px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.tabField {
+  padding: 10px;
+  font-weight: 700;
+  color: #7b8794;
+}
+
+.horLine {
+  border: 1px solid #dfe2e5;
+}
+
+.activeFontStyle {
+  color: #2563eb;
+}
+
+.activeBorderStyle {
+  border-color: #2563eb;
+  border-width: 1.5;
+}
